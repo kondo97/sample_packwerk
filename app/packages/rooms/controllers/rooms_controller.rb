@@ -3,7 +3,6 @@ class RoomsController < ApplicationController
 
   # GET /rooms or /rooms.json
   def index
-    pp '=============================================='
     @rooms = Room.all
   end
 
