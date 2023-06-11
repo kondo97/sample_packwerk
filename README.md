@@ -1,24 +1,8 @@
-# README
+This repository is sample app for learning packwerk.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Packwerk is a Ruby gem used to enforce boundaries and modularize Rails applications. <br>
+  [packwerk](https://github.com/Shopify/packwerk)
 
-Things you may want to cover:
+I have written an article titled "Introduction to Packwerk" on the following website. If you don't mind, please take a look at the article.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://zenn.dev/stmn_inc/articles/67f584ca002d4a
