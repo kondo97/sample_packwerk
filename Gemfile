@@ -44,6 +44,7 @@ group :development do
   gem 'spring'
   gem 'packwerk'
   gem 'pocky'
+  gem 'packwerk-extensions'
 end
 
 group :test do

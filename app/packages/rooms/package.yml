@@ -1,3 +1,5 @@
 enforce_dependencies: true
+enforce_privacy: true
+public_path: public/
 dependencies:
 - app/packages/rails_shims
