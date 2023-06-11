@@ -6,12 +6,23 @@
 #
 # bin/packwerk update-todo
 ---
+app/packages/room_ui:
+  "::RoomUi":
+    violations:
+    - dependency
+    files:
+    - config/initializers/configure_room_ui.rb
 app/packages/rooms:
   "::Room":
     violations:
     - dependency
     files:
     - test/controllers/rooms_controller_test.rb
+  "::RoomService":
+    violations:
+    - dependency
+    files:
+    - config/initializers/configure_room_ui.rb
 app/packages/users:
   "::User":
     violations:
